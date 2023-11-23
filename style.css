@@ -8,11 +8,28 @@ h1{
     font-size: 30px;
 }
 
+.logowithnav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logocontainer:hover{
+opacity: 20%;
+}
+
 .navbar a{
-    color: white;
+    color: black;
     font-size: 22px;
     margin-left:25px;
-   
+    border-radius: 100px;
+    border-style: solid;
+    border-width: thin;
+    padding-left: 1cm;
+    padding-right: 1cm;
+    padding-top: 0.3cm;
+    padding-bottom: 0.3cm;
+    
 }
 
 .navbar a:hover{
@@ -24,8 +41,9 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+
   }
 
   li {
@@ -45,11 +63,16 @@ ul {
   }
 
   .about img{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 500px;
+    transition: transform .2s;  
   }
+
+  .about img:hover{
+    transform: scale(5);
+  }
+
 
   .about{
     background-color: white;
@@ -59,6 +82,11 @@ ul {
     align-items: center;
     margin-bottom: 30px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.aboutbody{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .lgbanner{
@@ -109,4 +137,4 @@ ul {
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-   
+

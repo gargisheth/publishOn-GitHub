@@ -17,6 +17,10 @@ h1{
     padding-left: 10px;
 }
 
+.logocontainer{
+    background-attachment: fixed;
+}
+
 .logocontainer:hover{
 opacity: 20%;
 }

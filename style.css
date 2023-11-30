@@ -16,16 +16,10 @@ h1{
     padding-right: 60px;
     padding-top: 20px;
     padding-left: 10px;
-    positon fixed wont work 
+    position: sticky;
+    top:20px;
 }
 
-.logocontainer{
-    background-attachment: fixed;
-}
-
-.logocontainer:hover{
-opacity: 20%;
-}
 
 .navbar a{
     color: black;
@@ -49,13 +43,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: white;
     font-family: Arial, Helvetica, sans-serif;
 
   }
 
   li {
     float: left;
+    
   }
   
   li a {
@@ -64,6 +58,7 @@ ul {
     text-align: center;
     padding: 16px;
     text-decoration: none;
+    background-color: white;
   }
   
   li a:hover {
@@ -95,38 +90,44 @@ ul {
 }
 
 .aboutbody{
-    font-family: 'Times New Roman', Times, serif;
-    padding-top: 600px;
-    padding-left: 60px;  *padding right wont work*
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 700px;
+    padding-left: 60px;  
 }
-
-.brandingprojectsitems{
+#project{
+    padding-left: 50px;
+    padding-right: 20px;
+}
+.projectitems{
     width: 700px;
-    padding: 10px;
+    padding-left: 20px;
     margin: 10px;
     align-items: center;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
     }
     
-.brandingprojectsitems img{
+.projectitems img{
         width: 450px;
         align-items: center;
         display: inline-block;
       
     }
     
-.brandingprojects h1{
+.project h1{
         margin-left:10px;
     }
     
 .projectrow{
         display: flex inline-block;
         display: inline-block;
+      
 
     }
 
-.brandingprojectsitems{
+.projectitems{
  align-items: center;   
 }
 

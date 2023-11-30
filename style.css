@@ -92,22 +92,29 @@ ul {
     padding-top: 700px;
     padding-left: 60px;  
 }
-
-.scroll-container {
-    background-color: #bd0909;
-    overflow: auto;
-    white-space: nowrap;
-    padding: 20px;
-}
-
-.scroll-container img {
-    padding: 10px;
-    width: 240px;
-    height: 480px;
-}
-
-.appinterface{
+ 
+.carousel{
     padding-left: 60px;
+    padding-bottom: 18px;
+    background-color: #be0000;
+    display: flex;
+}
+
+.carousel-inner{
+    display: flex;
+    padding: 1cm
+}
+
+.carousel-item{
+    flex: 0 0 calc(100%/3);
+    display: block;
+    margin-right: 0;
+}
+
+.card{
+    width: 240px;
+    height: 534px;
+    margin: 0.5cm
 }
 
 #project{
@@ -129,7 +136,7 @@ ul {
 .projectitems img{
         width: 512px;
         height: 384px;
-        align-items: center;
+        text-align: left;
         display: inline-block;
       
     }

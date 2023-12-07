@@ -73,6 +73,15 @@ ul {
 
   }
 
+ .myclass{
+    display: flex !important;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+ }
+
+ .myclass img{
+    margin-left: 50px;
+ }
   .about img:hover{
     transform: scale(7);
   }
